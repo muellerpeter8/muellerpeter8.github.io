@@ -1,0 +1,11 @@
+@import "main.css";
+@import "carousel.css";
+
+body {
+    display: grid;
+    grid-template-rows: 100px auto 100px;
+}
+header, footer {
+    position: relative;
+    left:unset;
+}
