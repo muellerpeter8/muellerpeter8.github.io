@@ -1,19 +1,3 @@
-let image;
-     let url = 'https://graph.instagram.com/17958894358854872?fields=media_type,media_url,caption,username,timestamp&access_token=IGQVJWS0NwYnZAoaENWZAmk0NEk1ZAEFaVGY1N2owMV85eEJqOWpGZAzc4N1ozUTJYSzZAsUFRYUWNNSGE1S3RWWnNsWnJlWG9vZA1ppTXM1cnFodkZAEdGdqaWRpczFFNExjeFpFNjNTSzZAKZAmxtRE9EOXVDcwZDZD';
-    function setup() {
-        loadJSON(url, gotData);
-    }
-    function gotData(data) {
-        console.log(data);
-        image = data;
-    }
-    function showImage() {
-        if (image) {
-            console.log(image.media_url);
-        }
-    }
-    // setup();
-    // showImage();
 (function() {
     "use strict";
     let screenWidth = window.outerWidth;
