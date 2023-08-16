@@ -1,5 +1,5 @@
 let image;
-     let url = 'https://graph.instagram.com/17958894358854872?fields=media_type,media_url,caption,username,timestamp&access_token=IGQVJWS0NwYnZAoaENWZAmk0NEk1ZAEFaVGY1N2owMV85eEJqOWpGZAzc4N1ozUTJYSzZAsUFRYUWNNSGE1S3RWWnNsWnJlWG9vZA1ppTXM1cnFodkZAEdGdqaWRpczFFNExjeFpFNjNTSzZAKZAmxtRE9EOXVDcwZDZD';
+     let url = 'https://graph.instagram.com/17958894358854872?fields=media_type,media_url,caption,username,timestamp&access_token=IGQVJXcGRtSlY0a1liMUZACSmRIeDRhMTExeTdiZAExLV3lpY3B3TDFJai1qRkJYSHlFbWEyN3FZAM0pGU1I1cDBXZAnJZAbkVVZAGE1Rzdfc3RrNTNkWk5aQ2ZALbk8ydENHTDBWR0lYZA25jUWVtekVVR3RqbwZDZD';
     function setup() {
         loadJSON(url, gotData);
     }
