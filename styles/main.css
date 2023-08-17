@@ -46,7 +46,7 @@ header a {
 
 main {
     box-sizing: border-box;
-    padding: 30px 20px;
+    padding: 130px 20px;
     /* position: relative; */
 }
 h2 {
@@ -80,4 +80,9 @@ footer a {
 }
 footer img {
     width: 30px;
+}
+@media screen and (min-width: 1024px) {
+    header, footer {
+        left: 0;
+    }
 }

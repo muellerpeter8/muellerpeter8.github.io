@@ -3,25 +3,28 @@
 h1 {
     font-size: 3.6rem;
     text-align: center;
+    margin-block-end: 30px;
 }
 h2 {
-    margin-inline-start: -20px;
+    margin-inline-start: -3vw;
+    margin-block-end: 20px;
 }
 h3 {
     font-size: 2rem;
     font-weight: 600;
-    margin-block-end: 5px;
+    margin-block: 15px 5px;
 }
 p {
     font-size: 1.8rem;
     margin-block-start: 5px;
 }
 section {
-    padding-inline: 30px;
+    padding-inline: 10vw;
+    margin-block-end: 30px;
 }
 ul {
     list-style-type: disc;
-    padding-inline-start: 15px;
+    padding-inline-start: 30px;
     font-size: 1.8rem;
 }
 ul li {
@@ -31,4 +34,11 @@ ul li {
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 40px;
+}
+article {
+    margin-block: 30px;
+}
+main a {
+    font-size: 1.8rem;
+    color: #fff;
 }
