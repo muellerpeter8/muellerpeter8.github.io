@@ -10,6 +10,7 @@ main p {
     margin-block: 100px;
     width: 100%;
     transition: opacity 1s;
+    text-align: center;
 }
 #scrollingTextCon {
     position: absolute;
