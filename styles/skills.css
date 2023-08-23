@@ -17,6 +17,7 @@ h3 {
 p {
     font-size: 1.8rem;
     margin-block-start: 5px;
+    margin-inline-start: 10px;
 }
 section {
     padding-inline: 10vw;
