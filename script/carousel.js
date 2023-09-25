@@ -63,34 +63,34 @@
 
         dots[slideIndex-1].className += " active";
 
-        slides[slideIndex-1].style.display = "block";
+        slides[slideIndex-1].style.display = "flex";
 
         // add slide 1 and 2 to the end for an infinite slide show
         if (screenWidth >= 600) {
             if (columnsNumber == 3) {
                 if (slideIndex >= slides.length - 1) {
                     // console.log('slide 1');
-                    slide1.style.display = "block";
+                    slide1.style.display = "flex";
                     slideParent.append(slide1);
                 } else {
-                    slides[slideIndex+1].style.display = "block";
+                    slides[slideIndex+1].style.display = "flex";
                 }
                 if (slideIndex == (slides.length)) {
                     // console.log('slide 2');
-                    slide2.style.display = "block";
+                    slide2.style.display = "flex";
                     slideParent.append(slide2);
                 } else {
-                    slides[slideIndex].style.display = "block";
+                    slides[slideIndex].style.display = "flex";
                 }
             }
 
             if (columnsNumber == 2) {
                 if (slideIndex == (slides.length)) {
                     // console.log('slide 1');
-                    slide1.style.display = "block";
+                    slide1.style.display = "flex";
                     slideParent.append(slide1);
                 } else {
-                    slides[slideIndex].style.display = "block";
+                    slides[slideIndex].style.display = "flex";
                 }
             }
         }

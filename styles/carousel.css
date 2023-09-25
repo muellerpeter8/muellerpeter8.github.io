@@ -11,7 +11,8 @@
 .carousel-bgimg > div {
     display: none;
     background-color: #ccc;
-    padding: 50px;
+    padding: 0px;
+    align-items: center;
 }
 .columns3.carousel-bgimg, .columns2.carousel-bgimg {
     display: flex;
@@ -33,9 +34,9 @@
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: grey;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -62,6 +63,9 @@
     color: #817e7e;
     font-size: 20px;
     padding: 8px 12px;
+}
+.carousel-bgimg img {
+    width: 100%;
 }
 /* The dots/bullets/indicators */
 .dotsCon {
