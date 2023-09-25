@@ -47,7 +47,7 @@ main a {
     color: #fff;
 }
 article.less {
-    display:grid;
+    display: grid;
     grid-template-columns: 105px auto;
     gap: 10px;
 }

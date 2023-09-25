@@ -3,7 +3,6 @@ let seeLessBtns = document.querySelectorAll('.lessBtn');
 
 seeLessBtns.forEach((lessBtn) => {
     lessBtn.addEventListener('click', function(){
-        console.log('clicked');
         lessBtn.parentElement.classList.add('less');
     });
 });
