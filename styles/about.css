@@ -1,11 +1,15 @@
 @import "main.css";
+@import "anc-pages.css";
 @import "carousel.css";
 
-body {
+/* body {
     display: grid;
     grid-template-rows: 100px auto 100px;
 }
 header, footer {
     position: relative;
     left:unset;
+} */
+#carousel-con {
+    margin-block: 30px 10px;
 }
