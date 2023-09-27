@@ -21,11 +21,11 @@ section {
     padding-inline: 10vw;
     margin-block-end: 30px;
 }
-ul {
+main ul {
     list-style-type: disc;
     padding-inline-start: 30px;
     font-size: 1.8rem;
 }
-ul li {
+main ul li {
     margin-block-end: 10px;
 }

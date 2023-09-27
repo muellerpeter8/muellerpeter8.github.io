@@ -18,7 +18,7 @@ main p {
     left: 0;
     z-index: 0;
     width: 100%;
-    padding-block-end: 330px;
+    padding-block-end: 44vh;
 }
 #instructions {
     font-size: 2rem;
