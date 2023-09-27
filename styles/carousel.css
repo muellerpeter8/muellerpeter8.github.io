@@ -70,6 +70,7 @@
 /* The dots/bullets/indicators */
 .dotsCon {
     text-align: center;
+    margin-block-start: 10px;
 }
 
 .dotsCon .dot {
